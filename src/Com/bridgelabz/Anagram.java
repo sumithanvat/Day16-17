@@ -17,7 +17,7 @@ public class Anagram {
         char ch1[] = string1.toCharArray();
         char ch2[] = string2.toCharArray();
         // if the length of characters are not match then it is not anagram
-        if (ch1.length != ch2.length) {
+        if (ch1.length != ch2.length){
             System.out.println("Not an Anagram");
             System.exit(0);
         }
